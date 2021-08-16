@@ -1,0 +1,4 @@
+id,username,first_name,last_name,email,balance,referrer_email
+100,jk,Jan,Kowalski,jan@kowalscy.pl,10,x@d.pl
+101,ad,Andrzej,Duda,x@d.pl,100,
+102,zero,Zbigniew,Ziobro,zero@0.pl,0,zbysiu@100nóg.pl

@@ -1,0 +1,2 @@
+django>=2,<3            # Why not django 3 ;(
+psycopg2-binary==2.8.6  # 2.9 has issue with TZ

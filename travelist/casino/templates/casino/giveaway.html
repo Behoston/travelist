@@ -1,0 +1,11 @@
+<h1>Add points for no reason</h1>
+<a href="/">Go to homepage.</a>
+
+{% if status %}
+    <i>Amount added!</i>
+{% endif %}
+<form action="/giveaway/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
